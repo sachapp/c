@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap>
-<loc>https://antora.gitlab.io/demo/docs-site/sitemap-component-a.xml</loc>
-</sitemap>
-<sitemap>
-<loc>https://antora.gitlab.io/demo/docs-site/sitemap-component-b.xml</loc>
-</sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://sach.app/c/business-analysis-methodology-book/beta/chapter-01.html</loc>
+<lastmod>2021-05-28T13:06:30.993Z</lastmod>
+</url>
+<url>
+<loc>https://sach.app/c/business-analysis-methodology-book/beta/chapter-02.html</loc>
+<lastmod>2021-05-28T13:06:30.993Z</lastmod>
+</url>
+<url>
+<loc>https://sach.app/c/business-analysis-methodology-book/beta/chapter-03.html</loc>
+<lastmod>2021-05-28T13:06:30.993Z</lastmod>
+</url>
+<url>
+<loc>https://sach.app/c/business-analysis-methodology-book/beta/index.html</loc>
+<lastmod>2021-05-28T13:06:30.993Z</lastmod>
+</url>
+<url>
+<loc>https://sach.app/c/business-analysis-methodology-book/beta/preface.html</loc>
+<lastmod>2021-05-28T13:06:30.993Z</lastmod>
+</url>
+</urlset>
