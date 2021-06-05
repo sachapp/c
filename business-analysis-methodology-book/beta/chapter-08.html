@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết kế kỹ thuật và DevOps :: TỦ SÁCH CỦA MỌT</title>
+    <link rel="canonical" href="https://sach.app/c/business-analysis-methodology-book/beta/chapter-08.html">
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://sach.app/c">TỦ SÁCH CỦA MỌT</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="../..">Home</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="main-wrapper">
+<div class="navigation-container" data-component="business-analysis-methodology-book" data-version="beta">
+  <aside class="navigation">
+    <div class="panels">
+<div class="navigation-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">Business Analysis Methodology Book</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="author.html">Tác giả</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="preface.html">Lời tựa</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-01.html">1. Các nguyên tắc tinh gọn để đạt được sự đổi mới và thời gian đưa ra thị trường nhanh hơn</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-02.html">2. Quản lý kiến trúc doanh nghiệp</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-03.html">3. Phân tích chiến lược và định nghĩa phạm vi sản phẩm</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-04.html">4. Phương pháp nào là tốt nhất cho tiếp cận tinh gọn: Waterfall hay Agile?</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-05.html">5. Thu thập yêu cầu</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-06.html">6. Viết tài liệu yêu cầu</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-07.html">7. Thiết kế Trải nghiệm người dùng và Tính khả dụng</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="chapter-08.html">8. Thiết kế kỹ thuật và DevOps</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-09.html">9. Đảm bảo chất lượng và kiểm thử</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="chapter-10.html">10. Quản lý dự án</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="navigation-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Business Analysis Methodology Book</span>
+    <span class="version">beta</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Business Analysis Methodology Book</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">beta</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Fundamental Models for Business Analysts</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../fundamental-models-for-business-analysts/beta/index.html">beta</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+  <main class="main">
+<div class="toolbar" role="navigation">
+  <button class="navigation-toggle"></button>
+<nav class="crumbs" aria-label="breadcrumbs">
+  <ul>
+    <li class="crumb"><a href="index.html">Business Analysis Methodology Book</a></li>
+    <li class="crumb"><a href="chapter-08.html">8. Thiết kế kỹ thuật và DevOps</a></li>
+  </ul>
+</nav>
+<div id="helptext-toggle">
+  dual
+  <i class="fas fa-info-circle"></i> 
+</div></div>
+<article class="doc">
+<h1>Thiết kế kỹ thuật và DevOps</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>Technical Design and DevOps</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tái_cấu_trúc_và_dung_sai_cho_những_thay_đổi_trong_tương_lai"><a class="anchor" href="#_tái_cấu_trúc_và_dung_sai_cho_những_thay_đổi_trong_tương_lai"></a>Tái cấu trúc và dung sai cho những thay đổi trong tương lai</h2>
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>Refactoring and Tolerance for Future Changes</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Do tính chất lặp đi lặp lại của phương pháp tiếp cận tinh gọn, kiến trúc kỹ thuật của sản phẩm nên cho phép các bản sửa đổi với các tính năng mới và cập nhật ở các bản phát hành sau.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>Due to the iterative nature of the lean approach, the technical architecture of a product should allow revisions with new and updated features at later releases.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Trong quá trình phát triển lặp đi lặp lại, nếu sản phẩm có sự tích hợp chuyên sâu giữa các thành phần của nó thì điều sau sẽ xảy ra:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Nhóm cung cấp các bộ phận sản phẩm A và B mà không gặp bất kỳ sự cố lớn nào ở các lần lặp lại ban đầu.
+Tuy nhiên, nhóm nhận ra rằng họ phải thực hiện các thay đổi đối với phần A và B trong khi làm việc trên phần C vì nó có các điểm tích hợp với các phần đó.
+Nói cách khác, A và B phải được cấu trúc lại mặc dù chúng đã được phát hành.</p>
+</li>
+<li>
+<p><em>Tái cấu trúc</em> có nghĩa là thay đổi kiến trúc kỹ thuật hiện có của một sản phẩm mà không thay đổi hành vi của nó và nó luôn khó hơn phát triển từ đầu.
+Những động thái tới lui này cùng với những nỗ lực tái cấu trúc đầy thách thức khiến việc xây dựng và phân phối sản phẩm với các thành phần tích hợp thậm chí còn khó khăn hơn ở các lần lặp sau.</p>
+</li>
+</ul>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>During iterative development, if the product has intensive integration among its components the following happens:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The team delivers product parts A and B without any major problems at initial iterations.
+Nevertheless, the team realizes that it has to make changes to parts A and B while working on part C since it has integration points with those parts.
+In other words, A and B have to be refactored although they have already been released.</p>
+</li>
+<li>
+<p>Refactoring means changing the existing technical architecture of a product without changing its behavior, and it is always harder than developing from scratch.
+These back-and-forth moves with challenging refactoring efforts make the build and delivery of the product with integrated components even more difficult at later iterations.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kiến_trúc_spaghetti"><a class="anchor" href="#_kiến_trúc_spaghetti"></a>Kiến trúc Spaghetti</h2>
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>Spaghetti Architectures</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Những nỗ lực tái cấu trúc thường xuyên này đòi hỏi kỹ năng thiết kế và phát triển kiến trúc xuất sắc trong đội ngũ kỹ thuật.
+Cho dù phương pháp được lựa chọn là Agile hay Waterfall, các kiến trúc sư nên xây dựng một thiết kế kiến trúc kỹ thuật có tính linh hoạt cao.
+Nếu không, kiến trúc sẽ giống mì Ý (rối như món mì Ý) hơn với các bổ sung và cập nhật ở các lần lặp sau.
+Điều này sẽ dẫn đến một sản phẩm dễ hỏng với các vấn đề về hiệu suất, bảo mật, khả năng dự đoán và độ tin cậy.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>These frequent refactoring efforts necessitate excellent architecture design and development skills within the technical team.
+Whether the selected methodology is agile or waterfall, architects should formulate a highly flexible technical architecture design.
+Otherwise the architecture will be more like spaghetti with additions and updates at following iterations.
+This will result in a fragile product with performance, security, predictability, and reliability problems.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mô_hình_dữ_liệu_linh_hoạt"><a class="anchor" href="#_mô_hình_dữ_liệu_linh_hoạt"></a>Mô hình dữ liệu linh hoạt</h2>
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>Flexible Data Models</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Để xây dựng một kiến trúc kỹ thuật có tính linh hoạt cao, mô hình dữ liệu của sản phẩm phải là tham số và linh hoạt.
+Bằng cách này, có thể ngăn chặn các nhu cầu chuyển đổi và di chuyển dữ liệu quá mức do các yêu cầu giao dịch và báo cáo mới.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>To build a highly flexible technical architecture, the data model of the product should be parametric and flexible.
+This way excessive data migration and conversion needs, due to new transactional and reporting requirements, can be prevented.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Trong giai đoạn thu thập yêu cầu của dự án ứng dụng di động CEC, nhóm BA-Works đã xác định các yêu cầu báo cáo. Chúng bao gồm:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Tỷ trọng của kênh di động trong tổng doanh thu bán hàng</p>
+</li>
+<li>
+<p>Doanh thu bán hàng qua kênh di động của đại lý</p>
+</li>
+<li>
+<p>Doanh thu bán hàng trên kênh di động theo danh mục sản phẩm</p>
+</li>
+<li>
+<p>Doanh thu bán hàng trên kênh di động theo sản phẩm</p>
+</li>
+<li>
+<p>Tỷ lệ chuyển đổi cho biết có bao nhiêu khách hàng đã đặt hàng một sản phẩm khi họ sử dụng ứng dụng dành cho thiết bị di động</p>
+</li>
+<li>
+<p>Hiệu quả của thông báo chiến dịch theo ngữ cảnh hiển thị trên ứng dụng di động.</p>
+</li>
+</ul>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>During the requirements-gathering phase of the CEC mobile application project, the BA-Works team defined the reporting requirements. They included:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Share of mobile channel in total sales revenue</p>
+</li>
+<li>
+<p>Mobile channel sales revenue by dealer</p>
+</li>
+<li>
+<p>Mobile channel sales revenue by product category</p>
+</li>
+<li>
+<p>Mobile channel sales revenue by product</p>
+</li>
+<li>
+<p>Conversion rate showing how many customers ordered a product when they used the mobile application</p>
+</li>
+<li>
+<p>Effectiveness of contextual campaign notifications displayed on the mobile application.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Để tạo ra một kiến trúc kỹ thuật linh hoạt, các nhà phân tích kinh doanh của BA-Works đã xem xét tất cả các nhu cầu giao dịch và báo cáo cho ứng dụng di động CEC khi thiết kế mô hình dữ liệu của nó, được hiển thị bên dưới.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>To create a flexible technical architecture, BA-Works business analysts considered all transactional and reporting needs for the CEC mobile application when designing its data model, which is shown below.</p>
+</div>
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/00039.jpeg" alt="00039">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hiệu_suất_và_độ_tin_cậy"><a class="anchor" href="#_hiệu_suất_và_độ_tin_cậy"></a>Hiệu suất và độ tin cậy</h2>
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>Performance and Reliability</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Trong cách tiếp cận tinh gọn, sự thanh lịch của một sản phẩm không chỉ giới hạn ở khía cạnh hình ảnh của nó.
+Một sản phẩm thanh lịch là một sản phẩm mang lại giá trị tối đa cho khách hàng với mức độ tin cậy và hiệu suất cao nhất.
+Yếu tố chính làm cho một sản phẩm trở nên dễ vỡ là sự phức tạp về kỹ thuật của nó.
+Đây thường là kết quả của việc nhúng quá nhiều tính năng vào một sản phẩm có dung lượng phần cứng hạn chế.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>In the lean approach, the elegance of a product is not only limited to its visual aspects.
+An elegant product is one that proposes maximum value for its customers with the highest level of reliability and performance.
+The major factor that makes a product fragile is its technical complexity.
+This is usually a result of embedding an excessive number of features into a product that has limited hardware capacity.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Một trong những giải pháp cho vấn đề này là xây dựng một kiến trúc kỹ thuật mở cho phép sản phẩm giao tiếp với các sản phẩm khác bằng cách truyền dữ liệu giữa chúng và chia sẻ các tính năng bổ sung của chúng.
+Bằng cách này, một sản phẩm đơn lẻ không cần phải bao gồm tất cả các tính năng đó bên trong nó.
+Loại kiến trúc kỹ thuật mở này là động lực chính thúc đẩy khả năng của các <em>công nghệ đeo được</em> (wearable technologies) vượt quá khả năng của chúng.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>One of the solutions for this problem is to build an open technical architecture that allows the product to communicate with other products by transmitting data between them and sharing their complementary features.
+This way, a single product does not have to include all those features within it.
+This kind of open technical architecture is the main driver behind wearable technologies’ capabilities that are beyond their own capacity.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Ví dụ, người sử dụng máy đếm bước đơn giản có thể đeo được cũng có thể quản lý chế độ ăn uống và các chương trình rèn luyện cá nhân của họ thông qua giao diện di động của nó bằng cách kết nối với các sản phẩm khác như cân điện tử và thiết bị thể dục.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>For instance, users of a simple, wearable step counter can also manage their diet and personal training programs via its mobile interfaces by connecting to other products such as electronic scales and fitness devices.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dữ_liệu_lớn"><a class="anchor" href="#_dữ_liệu_lớn"></a>Dữ liệu lớn</h2>
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>Big Data</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Theo thời gian, dữ liệu do sản phẩm tạo ra có thể đạt đến quy mô lớn.
+Không thể lưu trữ mức dữ liệu này trong chúng do dung lượng phần cứng có hạn.
+Để vượt qua thách thức này, dữ liệu có thể được lưu trữ và quản lý trên đám mây.
+Tuy nhiên, điều này sẽ chỉ tạo ra sự lãng phí ở cấp độ dữ liệu trừ khi các công ty sử dụng công nghệ dữ liệu lớn để tạo ra thông tin chi tiết có giá trị cho người dùng sản phẩm của họ.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>In time the data generated by products may reach to a big scale.
+This level of data can’t be stored within them due to limited hardware capacity.
+To overcome this challenge, the data can be stored and managed on the cloud.
+However, this will only create data-level waste unless companies utilize big data technologies to generate valuable insights for users of their products.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Ví dụ: bộ đếm bước có thể đeo được đề cập trước đó cung cấp thông tin chi tiết hữu ích và thúc đẩy, chẳng hạn như so sánh thống kê hoạt động và chế độ ăn uống của người dùng với kết quả của người dùng khác.
+Họ cũng thực hiện phân tích thời gian thực về dữ liệu chế độ ăn và hoạt động hàng ngày của người dùng và gửi thông báo trong trường hợp họ không thể hoàn thành các mức mục tiêu.
+Những thông tin chi tiết về dữ liệu lớn như vậy làm phong phú thêm đề xuất giá trị của các sản phẩm này từ việc chỉ là bộ đếm bước đơn giản trở thành trợ lý cuộc sống lành mạnh.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>For instance, the wearable step counters mentioned earlier provide helpful and motivating insights, such as comparing the user’s activity and diet statistics with other users’ results.
+They also do real-time analysis of the user’s daily activity and diet data and send notifications in case they can’t fulfill the target levels.
+Such big data insights enrich the value proposition of these products from being simple step counters to healthy life assistants.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_devops"><a class="anchor" href="#_devops"></a>DevOps</h2>
+<div class="sectionbody">
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p><strong>DevOps</strong></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Do tính chất lặp đi lặp lại của phương pháp tiếp cận tinh gọn, sản phẩm được phát hành trực tiếp trong nhiều bản phát hành.
+Đôi khi các sản phẩm được phát triển trong khung thời gian dự kiến không thể được phát hành đúng hạn vì các vấn đề triển khai.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>Due to the iterative nature of the lean approach, the product goes live in multiple releases.
+Sometimes the products developed within planned time frames cannot be released on time because of deployment problems.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>Để giảm thiểu rủi ro triển khai, chẳng hạn như độ trễ, tỷ lệ lỗi cao và thời gian sửa chữa và khôi phục lâu, các nhóm vận hành nên bắt đầu làm việc cùng với các nhóm kỹ thuật trong quá trình thiết kế và phát triển sản phẩm và luôn đồng bộ với họ.
+Nếu không, việc triển khai sẽ luôn là một nút thắt cổ chai và tạo ra sự lãng phí ở cấp độ hoạt động ở mỗi lần phát hành sản phẩm.</p>
+</div>
+<div class="sidebarblock helptext">
+<div class="content">
+<div class="paragraph">
+<p>To mitigate deployment risks, such as latencies, high failure rates, and long fixing and recovery times, operations teams should start working together with technical teams during the design and development of the products and always be synchronized with them.
+Otherwise deployment will always be a bottleneck and create operational-level waste at every release of the product.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </main>
+</div>
+<footer class="footer">
+  <p>Nam libero tempore, cum soluta nobis est eligend</p>
+</footer><script src="../../_/js/site.js"></script>
+<script src="../../_/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+<script src="../../_/js/vendor/fontawesome.js"></script>
+  </body>
+</html>
