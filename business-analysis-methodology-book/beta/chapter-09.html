@@ -201,7 +201,7 @@ These defects can then be fixed at later iterations.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Thử nghiệm hoàn toàn là không thể.</p>
+<p>Kiểm thử toàn diện là bất khả thi.</p>
 </div>
 <div class="sidebarblock helptext">
 <div class="content">
@@ -211,10 +211,10 @@ These defects can then be fixed at later iterations.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Không thể kiểm thử từng bộ phận của sản phẩm do giới hạn về thời gian và nguồn lực.
+<p>Không thể kiểm thử mọi phần đơn lẻ của sản phẩm do giới hạn về thời gian và nguồn lực.
 Trong cách tiếp cận tinh gọn, các nỗ lực kiểm thử nên tập trung vào các khu vực có rủi ro cao thay vì kiểm thử toàn diện.
-Việc ưu tiên rủi ro cần được thực hiện theo mức độ tác động tiềm ẩn và khả năng xảy ra.
-Bằng cách này, có thể ngăn chặn được sự lãng phí do nỗ lực thử nghiệm quá mức.</p>
+Việc ưu tiên rủi ro cần được thực hiện theo mức độ tác động tiềm ẩn cũng như khả năng phát sinh.
+Bằng cách này, có thể ngăn chặn được sự lãng phí do nỗ lực kiểm thử quá mức.</p>
 </div>
 <div class="sidebarblock helptext">
 <div class="content">
@@ -233,8 +233,8 @@ This way, the waste due to excessive testing efforts can be prevented.</p>
 </div>
 <div class="paragraph">
 <p>Đối với hầu hết các dự án, các tài liệu yêu cầu được sử dụng làm cơ sở cho các trường hợp kiểm thử.
-Tuy nhiên, các trường hợp kiểm thử không chỉ nên chứa các kịch bản tích cực trên các tài liệu yêu cầu; chúng cũng nên bao gồm các điều kiện thử nghiệm âm tính.
-Các điều kiện kiểm thử tiêu cực này có thể được xác định bằng cách áp dụng các kỹ thuật kiểm thử dựa trên rủi ro, chẳng hạn như FMEA (Phân tích Ảnh hưởng và Chế độ Thất bại).</p>
+Tuy nhiên, các trường hợp kiểm thử không chỉ nên chứa các kịch bản tích cực trên các tài liệu yêu cầu; chúng cũng nên bao gồm các điều kiện kiểm thử tiêu cực (negative test conditions).
+Các điều kiện kiểm thử tiêu cực này có thể được xác định bằng cách áp dụng các kỹ thuật kiểm thử dựa trên rủi ro, chẳng hạn như FMEA (Failure Mode and Effect Analysis - Phân tích Ảnh hưởng và Chế độ Thất bại).</p>
 </div>
 <div class="sidebarblock helptext">
 <div class="content">
@@ -247,12 +247,13 @@ These negative test conditions can be identified by applying risk-based testing 
 </div>
 <div class="paragraph">
 <p>Áp dụng các kỹ thuật kiểm thử hộp đen, chẳng hạn như phân vùng tương đương, giá trị ranh giới và phân tích tổ hợp, giúp đạt được phạm vi kiểm thử đủ với dữ liệu kiểm thử tối thiểu.
-Các kỹ thuật này ngăn ngừa lãng phí bằng cách loại bỏ nhu cầu về dữ liệu thử nghiệm quá mức.</p>
+Các kỹ thuật này ngăn ngừa lãng phí bằng cách loại bỏ nhu cầu dữ liệu kiểm thử quá mức.</p>
 </div>
 <div class="sidebarblock helptext">
 <div class="content">
 <div class="paragraph">
-<p>Applying black-box test techniques, such as equivalence partitioning, boundary value, and combinatorial analysis, helps to achieve enough test coverage with minimum test data. These techniques prevent waste by eliminating the need for excessive test data.</p>
+<p>Applying black-box test techniques, such as equivalence partitioning, boundary value, and combinatorial analysis, helps to achieve enough test coverage with minimum test data.
+These techniques prevent waste by eliminating the need for excessive test data.</p>
 </div>
 </div>
 </div>
@@ -267,9 +268,9 @@ Các kỹ thuật này ngăn ngừa lãng phí bằng cách loại bỏ nhu cầ
 </div>
 </div>
 <div class="paragraph">
-<p>Vòng đời phát triển sản phẩm giống như một dòng sông với các yêu cầu (về sản phẩm) tại nguồn của nó.
-Nếu bạn không thể làm sạch con sông tại nguồn, bạn sẽ có một con sông bẩn thỉu chảy xuống đồi.
-Một cách tiếp cận mang tính phản ứng (đối phó) thay vì chủ động (triệt để) làm sạch dòng sông sẽ chỉ làm tăng chi phí và rủi ro theo cấp số nhân.</p>
+<p>Vòng đời phát triển sản phẩm giống như một dòng sông mà các yêu cầu sản phẩm là nguồn của nó.
+Nếu bạn không thể làm sạch nguồn của dòng sông, bạn sẽ có một con sông bẩn thỉu chảy xuống.
+Một cách tiếp cận đối phó thay vì chủ động (triệt để từ đầu) làm sạch dòng sông thì sẽ chỉ làm tăng chi phí và rủi ro theo cấp số nhân.</p>
 </div>
 <div class="sidebarblock helptext">
 <div class="content">
@@ -281,10 +282,10 @@ A reactive rather than a proactive approach to clean the river will increase the
 </div>
 </div>
 <div class="paragraph">
-<p>Do mức độ nghiêm trọng của tình huống này, các nhóm đảm bảo chất lượng nên chủ động hơn và bắt đầu thử nghiệm càng sớm càng tốt trong vòng đời phát triển sản phẩm.
-Giải quyết các khiếm khuyết ban đầu ngăn ngừa lãng phí do sửa chữa tốn kém ở các giai đoạn sau.
-Không cần chờ đợi sự phát triển của sản phẩm cuối cùng, nên bắt đầu thử nghiệm sớm bằng cách đánh giá các tài liệu yêu cầu và kiểm thử người dùng trên nguyên mẫu.
-Bằng cách làm này, cả hai lỗi liên quan đến chức năng và tính khả dụng có thể dễ dàng được tìm thấy và sửa chữa ở giai đoạn đầu của dự án.</p>
+<p>Do mức độ nghiêm trọng của tình huống này, các nhóm đảm bảo chất lượng nên chủ động hơn và bắt đầu việc kiểm thử trong vòng đời phát triển sản phẩm càng sớm càng tốt.
+Giải quyết sớm các khiếm khuyết sẽ ngăn chặn sự lãng phí do sửa chữa tốn kém ở các giai đoạn sau.
+Không cần chờ đợi phát triển đến cuối sản phẩm, việc kiểm thử nên được bắt đầu sớm bằng cách đánh giá các tài liệu yêu cầu cũng như các kiểm thử người dùng trên các nguyên mẫu.
+Bằng cách này, cả hai lỗi liên quan đến chức năng và tính khả dụng có thể dễ dàng được tìm thấy và sửa chữa ở giai đoạn đầu của dự án.</p>
 </div>
 <div class="sidebarblock helptext">
 <div class="content">
